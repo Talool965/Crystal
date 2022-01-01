@@ -4,8 +4,8 @@
 # Fast and secure
 # organized Code
 # Please be aware that crystal is underdevelopement and some issues may occur
-#CURRENT VERISON 1.0.0
-#Features
+# CURRENT VERISON 1.0.0
+# Features
 #USERID
 #USERNAME
 #ROBUX
@@ -18,3 +18,5 @@
 #email status verified/unverified/no email
 #Validates and remove invalid cookies
 #Remove duplicate cookies
+
+#Made by viki#0001 / @9upq
