@@ -20,3 +20,5 @@
 #Remove duplicate cookies
 
 #Made by viki#0001 / @9upq
+
+#WE RECOMMEND SHOWING THE RESULTS AFTER CHECKING IN NOTEPAD++
