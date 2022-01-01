@@ -1,5 +1,5 @@
 # Crystal 
-#1 Roblox checker CODED IN c#
+#1 Roblox checker coded in C#
 # Open source
 # Fast and secure
 # organized Code
