@@ -1,4 +1,4 @@
-# Crystal 
+# Crystal roblox checker
 #1 Roblox cookie checker coded in C#
 # Open source
 # Fast and secure
