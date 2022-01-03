@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -85,7 +85,7 @@ namespace Crystal
             try
             {
                 string GetDirectory = System.IO.File.ReadAllText(@"Config\CookiesDirectory.ini");
-                if (GetDirectory.Contains("DEFAULT"))
+                if (GetDirectory == "DEFAULT")
                 {
                     GetDirectory = "Cookies.txt";
 
@@ -102,7 +102,7 @@ namespace Crystal
                 {
                     int totalrobux = 0;
                     int totalRap = 0;
-
+                    int close = CountCookies;
 
                     File.WriteAllText("output.txt", "");
 
@@ -114,6 +114,7 @@ namespace Crystal
                     List<string> allLines = new List<string>();
                     using (StreamReader reader = new StreamReader(GetDirectory))
                     {
+
                         string line;
                         while ((line = reader.ReadLine()) != null)
                         {
@@ -193,24 +194,6 @@ namespace Crystal
                 Console.ReadKey();
             }
             
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         }
         public static void RemoveDuplicates()
