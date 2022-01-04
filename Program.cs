@@ -159,6 +159,7 @@ namespace Crystal
 
             try
             {
+                
                 //Writing//
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.Write("\r\n>> ");
@@ -184,11 +185,6 @@ namespace Crystal
                     case 4:
                         Modules.settings();
                         Console.Clear();
-
-                        break;
-                    case 5:
-                        Console.Clear();
-
                         break;
 
                 }

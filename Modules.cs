@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -26,6 +26,8 @@ namespace Crystal
             string file = new StreamReader(cookies).ReadToEnd();
             string[] lines = file.Split('\n');
             int CountCookies = lines.GetLength(0);
+            File.WriteAllText(@"Config\cache.bin", $"{CountCookies}");
+            
             //---END----
         }
 
@@ -52,6 +54,7 @@ namespace Crystal
                 Console.ResetColor();
                 Console.Write(" does not exist if this issue persist please reinstall crystal files");
                 Console.ReadKey();
+                Console.Clear();
             }
 
             if (File.Exists(@"Config\CookiesDirectory.ini"))
@@ -73,6 +76,7 @@ namespace Crystal
                 Console.ResetColor();
                 Console.Write(" does not exist if this issue persist please reinstall crystal files");
                 Console.ReadKey();
+                Console.Clear();
             }
 
         }
