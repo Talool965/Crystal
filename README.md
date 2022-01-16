@@ -21,6 +21,10 @@
 
 #Made by viki#0001 / @9upq
 
+#Looking for a checker that saves output in .csv file format?
+Check this project out: https://github.com/Talool965/CrystalCSV
+
+
 # WE RECOMMEND SHOWING THE RESULTS AFTER CHECKING IN NOTEPAD++
 You can also change the cookie directory from config\CookiesDirectory.ini
 ![Screenshot 2022-01-01 152604](https://user-images.githubusercontent.com/69878842/147850525-9e61aa00-4c55-4af2-8d29-93c59e2dd01b.png)
