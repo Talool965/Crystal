@@ -1,0 +1,8 @@
+E:\repos\Crystal\Crystal\bin\Debug\Crystal.exe.config
+E:\repos\Crystal\Crystal\bin\Debug\Crystal.exe
+E:\repos\Crystal\Crystal\bin\Debug\Crystal.pdb
+E:\repos\Crystal\Crystal\obj\Debug\Crystal.csproj.AssemblyReference.cache
+E:\repos\Crystal\Crystal\obj\Debug\Crystal.csproj.SuggestedBindingRedirects.cache
+E:\repos\Crystal\Crystal\obj\Debug\Crystal.csproj.CoreCompileInputs.cache
+E:\repos\Crystal\Crystal\obj\Debug\Crystal.exe
+E:\repos\Crystal\Crystal\obj\Debug\Crystal.pdb
